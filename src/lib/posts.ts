@@ -15,9 +15,6 @@ export const posts: Post[] = [
   },
   {
     id: 2,
-
-
-    
     slug: "understanding-react-router",
     title: "Understanding React Router",
     content:

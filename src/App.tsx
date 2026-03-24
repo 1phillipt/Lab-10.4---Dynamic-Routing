@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BlogIndex from "./pages/BlogIndex";
 
 
 function Home(){
@@ -15,6 +16,7 @@ function App(){
 
       //route to the home
       <Route path="/" element={<Home/>}/>
+      <Route path="/blog" element={<BlogIndex />} />
     </Routes>
     </BrowserRouter>
   )
